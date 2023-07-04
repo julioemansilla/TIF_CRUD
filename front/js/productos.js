@@ -5,7 +5,7 @@ createApp({
         return{
            productos: [],
            //url: 'http://127.0.0.1:5000/productos', 
-           url : 'https://julman73.pythonanywhere.com/productos',
+           url : 'https://julman73.pythonanywhere.com/productos/',
            cargando: true,
            error: false
         }
