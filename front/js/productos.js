@@ -5,7 +5,7 @@ createApp({
         return{
            productos: [],
            //url: 'http://127.0.0.1:5000/productos', 
-           url : 'https://julman73.pythonanywhere.com/productos/',
+           url : 'http://julman73.pythonanywhere.com/productos',
            cargando: true,
            error: false
         }
@@ -26,7 +26,7 @@ createApp({
         },
 
         eliminar(producto) {
-            const url = 'https://julman73.pythonanywhere.com/productos/'+producto;
+            const url = 'http://julman73.pythonanywhere.com/productos/'+producto;
            
             let options = {
                 method: 'DELETE'
